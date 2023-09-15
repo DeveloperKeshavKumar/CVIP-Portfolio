@@ -48,7 +48,7 @@ nav li a{
 /* Home Section */
 
 .home{
-    padding: 2% 5% 0 10%;
+    padding: 2% 5% 8% 10%;
     display: flex;
     align-items: center;
 }
@@ -78,7 +78,7 @@ nav li a{
 
 .hero-text .links{
     font-size: 1.5rem;
-    width: 70%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
 }
@@ -87,6 +87,10 @@ nav li a{
     width:50%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-text .links div i{
     color: #f0f0f0;
 }
 
@@ -105,4 +109,62 @@ nav li a{
     border-radius: 50%;
     width: 60%;
     box-shadow: -1rem -0.4rem #f0f0f0;
+}
+
+/* About Section */
+
+.about{
+    width: 55%;
+    height: 360px;
+    border-radius: 25px;
+    margin: 0 auto;
+    background-color: #5c5c5c;
+    display: flex;
+    justify-content: center;    
+}
+
+.abt-img{
+    align-self: center;
+    padding-right: 10%;
+}
+
+.abt-img img{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 15px 15px #1d2224;
+}
+
+.abt-text{
+    justify-self: flex-start;
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #0f1111;
+}
+
+.abt-text .details{
+    letter-spacing: 2px;
+    padding-top: 4%;
+    font-size: 1rem;
+    font-weight: initial;
+    color: #f0f0f0;
+}
+
+.abt-text .details h2{
+    padding-top: 4%;
+    color: #1d2224;
+    letter-spacing: 1.2px;
+}
+
+.abt-text .details a{
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.abt-text .details a:hover{
+    font-weight: 800;
+    color:#aebadf;
 }
