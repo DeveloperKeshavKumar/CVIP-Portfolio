@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #636567;
+    background-color: #1d2224;
     color: #f0f0f0;
     font-family: 'Philosopher',Helvetica, sans-serif;
 }
@@ -46,3 +46,63 @@ nav li a{
 }
 
 /* Home Section */
+
+.home{
+    padding: 2% 5% 0 10%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text{
+    width:60%;
+    font-size: 1.3rem;
+    color: #8f8f8f;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    padding: 2% 0 5%;
+    color: #f0f0f0;
+}
+
+.hero-text h1 span{
+    color: #155dde;
+}
+
+.hero-text p{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-bottom: 4%;
+    color: #f0f0f0;
+}
+
+.hero-text .links{
+    font-size: 1.5rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text .links div{
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #f0f0f0;
+}
+
+.hero-text .links div i:hover{
+    color: #aebadf;
+}
+
+
+.hero-img{
+    margin-left: 15vw;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.hero-img img{
+    border-radius: 50%;
+    width: 60%;
+    box-shadow: -1rem -0.4rem #f0f0f0;
+}
